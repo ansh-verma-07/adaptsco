@@ -2,7 +2,7 @@ export const brand = {
   name: "ADAPTS.CO",
   shortName: "ADAPTS",
   taglines: [
-    "The Future Belongs to Those Who Build It",
+    "The Future Belongs to Those Who Adapts",
     "The Future Belongs to Those Who Adapt",
     "Premium Digital Solutions for Modern Brands",
     "Digital Excellence for Visionary Brands",
