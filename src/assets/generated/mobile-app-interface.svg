@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Mobile app interface">
+  <rect width="900" height="620" rx="36" fill="#050604"/>
+  <rect x="326" y="52" width="248" height="516" rx="42" fill="#11140d" stroke="#eaff00" stroke-width="5"/>
+  <rect x="352" y="96" width="196" height="420" rx="24" fill="#f7f8ef"/>
+  <path d="M382 158h136M382 196h88" stroke="#11140d" stroke-width="16" stroke-linecap="round"/>
+  <rect x="382" y="248" width="136" height="84" rx="18" fill="#eaff00"/><rect x="382" y="356" width="136" height="36" rx="18" fill="#11140d"/>
+  <circle cx="450" cy="462" r="28" fill="#c8ea00"/>
+  <path d="M184 172l82 82-82 82M716 172l-82 82 82 82" fill="none" stroke="#eaff00" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

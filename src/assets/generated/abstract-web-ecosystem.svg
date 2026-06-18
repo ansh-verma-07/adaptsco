@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Abstract web ecosystem dashboard">
+  <rect width="900" height="620" rx="36" fill="#070806"/>
+  <path d="M72 92h756v436H72z" fill="#11140d" stroke="#eaff00" stroke-opacity=".45" stroke-width="2"/>
+  <circle cx="130" cy="140" r="10" fill="#eaff00"/><circle cx="166" cy="140" r="10" fill="#fff"/><circle cx="202" cy="140" r="10" fill="#70ff72"/>
+  <path d="M125 238h270v180H125zM448 238h330v74H448zM448 344h144v74H448zM626 344h152v74H626z" fill="#181d12" stroke="#eaff00" stroke-opacity=".25"/>
+  <path d="M160 370c54-96 120-94 170-18 61 92 119-20 196-42 92-26 141 35 200-54" fill="none" stroke="#eaff00" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#fff" stroke-opacity=".22"><path d="M125 470h653M125 510h653M444 190v280M624 190v280"/></g>
+</svg>

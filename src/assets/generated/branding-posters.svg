@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Branding and poster board">
+  <rect width="900" height="620" rx="36" fill="#0b0c08"/>
+  <rect x="126" y="102" width="202" height="330" rx="18" fill="#f7f8ef"/><rect x="350" y="62" width="224" height="420" rx="18" fill="#eaff00"/><rect x="596" y="132" width="178" height="310" rx="18" fill="#151910" stroke="#eaff00" stroke-width="3"/>
+  <path d="M164 360h122M164 390h88M386 142h150M386 184h108M630 362h110" stroke="#11140d" stroke-width="18" stroke-linecap="round"/>
+  <path d="M408 346l64-148 64 148h-48l-16-42-16 42z" fill="#11140d"/>
+  <path d="M632 202h88v88h-88z" fill="#eaff00"/><path d="M180 172l42 72 42-72z" fill="#c8ea00"/>
+</svg>

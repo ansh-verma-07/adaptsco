@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Abstract studio grid">
+  <rect width="900" height="620" rx="36" fill="#050604"/>
+  <g stroke="#eaff00" stroke-opacity=".34"><path d="M92 120h716M92 220h716M92 320h716M92 420h716M92 520h716M160 72v476M300 72v476M450 72v476M600 72v476M740 72v476"/></g>
+  <path d="M192 458l156-256 154 180 96-116 132 192z" fill="#eaff00" fill-opacity=".16" stroke="#eaff00" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="348" cy="202" r="28" fill="#eaff00"/><circle cx="600" cy="266" r="20" fill="#fff"/><circle cx="730" cy="458" r="18" fill="#70ff72"/>
+</svg>

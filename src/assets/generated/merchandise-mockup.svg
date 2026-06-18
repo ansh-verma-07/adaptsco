@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Merchandise mockup">
+  <rect width="900" height="620" rx="36" fill="#080907"/>
+  <path d="M286 132l80-50h168l80 50 104 60-68 128-78-36v236H328V284l-78 36-68-128z" fill="#f7f8ef" stroke="#eaff00" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M392 352l52-132h38l52 132h-46l-10-30h-34l-10 30z" fill="#11140d"/>
+  <path d="M450 248l-20 50h40z" fill="#eaff00"/>
+  <path d="M176 464h548" stroke="#eaff00" stroke-opacity=".5" stroke-width="12" stroke-linecap="round"/>
+</svg>

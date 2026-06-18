@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Video editing timeline">
+  <rect width="900" height="620" rx="36" fill="#050604"/>
+  <rect x="84" y="90" width="732" height="438" rx="28" fill="#11140d" stroke="#eaff00" stroke-opacity=".35"/>
+  <rect x="128" y="132" width="284" height="174" rx="18" fill="#eaff00"/><path d="M244 178l94 42-94 42z" fill="#050604"/>
+  <rect x="450" y="132" width="236" height="44" rx="22" fill="#f7f8ef"/><rect x="450" y="204" width="312" height="44" rx="22" fill="#202616"/><rect x="450" y="276" width="190" height="44" rx="22" fill="#70ff72"/>
+  <path d="M128 396h600M128 448h520" stroke="#f7f8ef" stroke-opacity=".22" stroke-width="18" stroke-linecap="round"/>
+  <path d="M320 366v118" stroke="#eaff00" stroke-width="6"/><circle cx="320" cy="366" r="16" fill="#eaff00"/>
+</svg>

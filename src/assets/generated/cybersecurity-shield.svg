@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Cybersecurity shield">
+  <rect width="900" height="620" rx="36" fill="#050604"/>
+  <path d="M450 72l242 88v152c0 142-90 232-242 286-152-54-242-144-242-286V160z" fill="#11140d" stroke="#eaff00" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M450 150v342M330 250h240M302 344h296" stroke="#eaff00" stroke-opacity=".38" stroke-width="12" stroke-linecap="round"/>
+  <rect x="366" y="258" width="168" height="136" rx="24" fill="#f7f8ef"/><path d="M398 258v-44c0-76 104-76 104 0v44" fill="none" stroke="#f7f8ef" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="450" cy="326" r="22" fill="#11140d"/><path d="M450 346v34" stroke="#11140d" stroke-width="14" stroke-linecap="round"/>
+</svg>

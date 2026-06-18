@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="IoT smart system">
+  <rect width="900" height="620" rx="36" fill="#050604"/>
+  <circle cx="450" cy="310" r="104" fill="#12160d" stroke="#eaff00" stroke-width="5"/>
+  <circle cx="450" cy="310" r="38" fill="#eaff00"/>
+  <g stroke="#eaff00" stroke-width="5" fill="#11140d"><path d="M450 206V94"/><path d="M554 310h138"/><path d="M450 414v112"/><path d="M346 310H208"/><path d="M522 238l92-92"/><path d="M378 382l-92 92"/><circle cx="450" cy="82" r="24"/><circle cx="706" cy="310" r="24"/><circle cx="450" cy="538" r="24"/><circle cx="194" cy="310" r="24"/><circle cx="628" cy="132" r="24"/><circle cx="272" cy="488" r="24"/></g>
+  <path d="M410 310h80M450 270v80" stroke="#050604" stroke-width="12" stroke-linecap="round"/>
+</svg>
