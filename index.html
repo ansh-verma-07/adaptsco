@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" class="theme-init">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050604" />
+
+    <!-- Primary Meta Tags -->
+    <title>ADAPTS | Creative Technology Startup</title>
+    <meta name="title" content="ADAPTS | Creative Technology Startup" />
+    <meta name="description"
+      content="ADAPTS is a creative technology startup focused on building innovative digital solutions. We specialize in web and mobile application development, branding, IoT projects, media production, and cybersecurity." />
+    <meta name="keywords"
+      content="ADAPTS, creative technology startup, digital solutions, web development, mobile application development, branding, IoT projects, media production, cybersecurity, UI/UX design" />
+    <meta name="author" content="ADAPTS" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://adaptsco.xyz/" />
+    <meta property="og:title" content="ADAPTS | Creative Technology Startup" />
+    <meta property="og:description"
+      content="ADAPTS is a creative technology startup focused on building innovative digital solutions by blending design, strategy, and technology." />
+    <meta property="og:image" content="/images/hero/image-1.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://adaptsco.xyz/" />
+    <meta property="twitter:title" content="ADAPTS | Creative Technology Startup" />
+    <meta property="twitter:description"
+      content="ADAPTS is a creative technology startup focused on building innovative digital solutions by blending design, strategy, and technology." />
+    <meta property="twitter:image" content="/images/hero/image-1.jpg" />
+
+    <link rel="canonical" href="https://adapts.co/" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <script>
+      (function () {
+        try {
+          const saved = localStorage.getItem("adapts-theme") || "system";
+          const dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.dataset.theme = saved === "system" ? (dark ? "dark" : "light") : saved;
+          document.documentElement.dataset.themeMode = saved;
+        } catch (_) {
+          document.documentElement.dataset.theme = "dark";
+          document.documentElement.dataset.themeMode = "system";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
