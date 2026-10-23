@@ -14,8 +14,8 @@ export function Navbar() {
       <header className="fixed inset-x-0 top-0 z-50 px-4 py-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-[var(--line)] bg-[var(--panel)] px-3 py-2 shadow-2xl backdrop-blur-xl">
           <Link to="/" className="flex items-center gap-3 rounded-full pr-3">
-            <img src={logo} alt="ADAPTS logo" className="h-11 w-11 rounded-full object-cover" />
-            <span className="hidden font-display text-sm font-bold uppercase tracking-[0.24em] sm:inline">ADAPTS.CO</span>
+            <img src={logo} alt="AdaptSphere logo" className="h-11 w-11 rounded-full object-cover" />
+            <span className="hidden font-display text-sm font-bold uppercase tracking-[0.24em] sm:inline">AdaptSphere</span>
           </Link>
           <nav className="hidden items-center gap-1 md:flex">
             {navigation.slice(1).map((item) => (
