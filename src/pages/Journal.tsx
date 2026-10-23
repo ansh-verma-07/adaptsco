@@ -15,7 +15,7 @@ export function Journal() {
     <PageTransition>
       <SEO entry={seo.journal} />
       <PageHero eyebrow="Journal" title="Editorial notes for future-ready brands." text="An innovation blog layout with clearly labeled editable placeholder articles." />
-      <CurvedLoopText text="ADAPTS Journal - Build - Design - Secure - Adapt" />
+      <CurvedLoopText text="AdaptSphere Journal - Build - Design - Secure - Adapt" />
       <Container className="relative py-20">
         <div className="mb-8">
           <FallingText words={["Performance", "Branding", "Cybersecurity", "IoT", "Creative", "Digital products"]} />
