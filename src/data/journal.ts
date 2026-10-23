@@ -4,18 +4,18 @@ export const journal: JournalPost[] = [
   {
     slug: "high-quality-digital-solutions-accessible",
     title: "Why High Quality Digital Solutions Should Be Accessible",
-    excerpt: "Editable placeholder article on ADAPTS' belief that refined digital work should be reachable for growing brands.",
+    excerpt: "Editable placeholder article on AdaptSphere' belief that refined digital work should be reachable for growing brands.",
     category: "Vision",
     readTime: "4 min",
-    body: ["This editable placeholder expands the ADAPTS point of view: high quality should not feel unreachable for ambitious brands.", "Replace this draft with a published essay when the journal content is ready."],
+    body: ["This editable placeholder expands the AdaptSphere point of view: high quality should not feel unreachable for ambitious brands.", "Replace this draft with a published essay when the journal content is ready."],
   },
   {
     slug: "future-ready-digital-experiences",
-    title: "How ADAPTS Builds Future-Ready Digital Experiences",
+    title: "How AdaptSphere Builds Future-Ready Digital Experiences",
     excerpt: "A draft editorial on designing for quality, performance, and long-term business clarity.",
     category: "Process",
     readTime: "5 min",
-    body: ["Future-ready work balances strategy, design, technology, and execution.", "This placeholder should be replaced with source-backed ADAPTS writing."],
+    body: ["Future-ready work balances strategy, design, technology, and execution.", "This placeholder should be replaced with source-backed AdaptSphere writing."],
   },
   {
     slug: "performance-matters",
@@ -31,7 +31,7 @@ export const journal: JournalPost[] = [
     excerpt: "A brand is more than a logo; it is a repeatable system for recognition and trust.",
     category: "Brand",
     readTime: "4 min",
-    body: ["Branding gives campaigns consistency and digital products memory.", "Replace this placeholder with ADAPTS' final editorial copy."],
+    body: ["Branding gives campaigns consistency and digital products memory.", "Replace this placeholder with AdaptSphere' final editorial copy."],
   },
   {
     slug: "ethical-cybersecurity-growing-brands",
