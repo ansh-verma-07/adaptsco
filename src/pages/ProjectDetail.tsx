@@ -13,7 +13,7 @@ export function ProjectDetail() {
   const project = projects.find((item) => item.slug === slug) || projects[0];
   return (
     <PageTransition>
-      <SEO entry={{ ...seo.projects, title: `${project.title} | ADAPTS.CO`, path: `/projects/${project.slug}` }} />
+      <SEO entry={{ ...seo.projects, title: `${project.title} | AdaptSphere`, path: `/projects/${project.slug}` }} />
       <PageHero eyebrow={project.category} title={project.title} text="Editable placeholder case study - replace with real project data, visuals, metrics, and client approvals." />
       <Container className="pb-20">
         <img src={visualFor(project.title)} alt="" className="mb-8 aspect-[16/8] w-full rounded-[2rem] object-cover" />
