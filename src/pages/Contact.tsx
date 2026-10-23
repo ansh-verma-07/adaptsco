@@ -14,14 +14,30 @@ import { cn } from "../lib/cn";
 
 export function Contact() {
   const [selected, setSelected] = useState<string[]>([]);
-  const [submitted, setSubmitted] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const toggle = (item: string) => setSelected((current) => (current.includes(item) ? current.filter((value) => value !== item) : [...current, item]));
 
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setSubmitted(true);
+    const data = new FormData(event.currentTarget);
+    const value = (name: string) => String(data.get(name) ?? "").trim();
+    const subject = `Project enquiry: ${value("projectType")} — ${value("name")}`;
+    const body = [
+      `Name: ${value("name")}`,
+      `Email: ${value("email")}`,
+      `Phone / WhatsApp: ${value("phone")}`,
+      `Company / Brand: ${value("company")}`,
+      `Project Type: ${value("projectType")}`,
+      `Services: ${selected.join(", ") || "Not specified"}`,
+      `Budget Range: ${value("budget")}`,
+      `Timeline: ${value("timeline")}`,
+      `Preferred Contact Method: ${value("contactMethod")}`,
+      "",
+      "Message:",
+      value("message"),
+    ].join("\n");
+    window.location.href = `mailto:${brand.contact.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const copyEmail = async () => {
@@ -52,6 +68,11 @@ export function Contact() {
               <button type="button" onClick={copyEmail} className="mt-4 inline-flex items-center gap-2 rounded-full border border-[var(--line)] px-4 py-2 text-sm font-bold uppercase tracking-[0.18em]">
                 {copied ? <Check size={16} /> : <Copy size={16} />} {copied ? "Copied" : "Copy email"}
               </button>
+              <div className="mt-8 text-sm leading-7 text-[var(--muted)]">
+                <p>{brand.name}</p>
+                <p>{brand.contact.address}</p>
+                <p>CIN: {brand.cin}</p>
+              </div>
               <div className="mt-8">
                 <PricingNote />
               </div>
@@ -65,7 +86,7 @@ export function Contact() {
               </div>
               <label className="grid gap-2 text-sm font-semibold">
                 Project Type
-                <select required className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]">
+                <select name="projectType" required className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]">
                   <option value="">Choose project type</option>
                   {projectTypes.map((item) => <option key={item}>{item}</option>)}
                 </select>
@@ -81,17 +102,17 @@ export function Contact() {
                 </div>
               </div>
               <div className="grid gap-4 md:grid-cols-3">
-                <Select label="Budget Range" items={budgetRanges} />
-                <Select label="Timeline" items={timelines} />
-                <Select label="Preferred Contact Method" items={contactMethods} />
+                <Select name="budget" label="Budget Range" items={budgetRanges} />
+                <Select name="timeline" label="Timeline" items={timelines} />
+                <Select name="contactMethod" label="Preferred Contact Method" items={contactMethods} />
               </div>
               <label className="grid gap-2 text-sm font-semibold">
                 Message
-                <textarea required rows={5} className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]" placeholder="Share the scope, idea, target audience, or launch need." />
+                <textarea name="message" required rows={5} className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]" placeholder="Share the scope, idea, target audience, or launch need." />
               </label>
-              {submitted ? <p className="rounded-2xl border border-[var(--line)] bg-[var(--accent-soft)] p-4 text-sm font-semibold">Request staged successfully. This front-end demo does not send messages yet.</p> : null}
+              <p className="text-sm text-[var(--muted)]">Opens your email app with your project details. Review the draft and send it to complete your enquiry.</p>
               <button type="submit" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--accent)] px-5 py-3 text-sm font-bold uppercase tracking-[0.18em] text-black">
-                Send Project Signal <Send size={16} />
+                Continue to Email <Send size={16} />
               </button>
             </form>
           </div>
@@ -110,11 +131,11 @@ function Field({ label, name, type = "text", required = false }: { label: string
   );
 }
 
-function Select({ label, items }: { label: string; items: string[] }) {
+function Select({ name, label, items }: { name: string; label: string; items: string[] }) {
   return (
     <label className="grid gap-2 text-sm font-semibold">
       {label}
-      <select className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]">
+      <select name={name} className="rounded-2xl border border-[var(--line)] bg-[var(--panel)] px-4 py-3 text-[var(--ink)]">
         {items.map((item) => <option key={item}>{item}</option>)}
       </select>
     </label>
