@@ -8,8 +8,9 @@ export function Footer() {
     <footer className="border-t border-[var(--line)] py-12">
       <Container className="grid gap-8 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <p className="font-display text-3xl font-semibold">ADAPTS.CO</p>
+          <p className="font-display text-3xl font-semibold">{brand.name}</p>
           <p className="mt-4 max-w-md text-sm leading-7 text-[var(--muted)]">{brand.positioning}</p>
+          <p className="mt-4 text-sm text-[var(--muted)]">CIN: {brand.cin}</p>
         </div>
         <nav className="grid gap-2 text-sm text-[var(--muted)]">
           {navigation.map((item) => (
@@ -20,6 +21,8 @@ export function Footer() {
         </nav>
         <div className="text-sm leading-7 text-[var(--muted)]">
           <p>{brand.contact.email}</p>
+          <p>{brand.contact.whatsapp}</p>
+          <p>{brand.contact.address}</p>
           <p>{brand.contact.instagram}</p>
           <p>{brand.contact.linkedin}</p>
           <p>{brand.contact.linktree}</p>
