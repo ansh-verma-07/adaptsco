@@ -38,7 +38,7 @@ export function About() {
               <BorderGlowCard key={item}>
                 <p className="text-xs font-bold uppercase tracking-[0.24em] text-[var(--accent)]">0{index + 1}</p>
                 <h3 className="mt-4 font-display text-3xl font-semibold">{item}</h3>
-                <p className="mt-3 text-sm leading-7 text-[var(--muted)]">A core layer of the ADAPTS operating system for modern brands.</p>
+                <p className="mt-3 text-sm leading-7 text-[var(--muted)]">A core layer of the AdaptSphere operating system for modern brands.</p>
               </BorderGlowCard>
             ))}
           </DisplayCards>
