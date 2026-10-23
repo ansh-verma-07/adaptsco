@@ -7,7 +7,7 @@ export function LogoLoop() {
         {Array.from({ length: 10 }).map((_, index) => (
           <div key={index} className="flex items-center gap-3 text-sm font-bold uppercase tracking-[0.24em]">
             <img src={logo} alt="" className="h-8 w-8 rounded-full object-cover" />
-            ADAPTS.CO
+            AdaptSphere
           </div>
         ))}
       </div>
