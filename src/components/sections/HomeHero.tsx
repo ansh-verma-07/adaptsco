@@ -24,7 +24,7 @@ export function HomeHero() {
             <DecryptedText text="Engineered for the Future" />
           </div>
           <h1 className="font-display text-6xl font-semibold leading-[0.86] tracking-tight text-balance md:text-8xl lg:text-[8.5rem]">
-            <SplitText text="ADAPTS.CO" />
+            <SplitText text="AdaptSphere" />
           </h1>
           <p className="mt-7 max-w-3xl text-2xl leading-tight text-[var(--ink)] md:text-4xl">
             {brand.taglines[0]}. <span className="text-[var(--muted)]">Premium digital solutions for </span>
