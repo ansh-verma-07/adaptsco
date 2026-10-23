@@ -28,7 +28,7 @@ export function Testimonials() {
           {trustPillars.map((pillar) => (
             <BorderGlowCard key={pillar}>
               <h2 className="font-display text-3xl font-semibold">{pillar}</h2>
-              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">A trust signal from ADAPTS' positioning: quality, efficiency, scalability, and sustainable cost awareness.</p>
+              <p className="mt-3 text-sm leading-7 text-[var(--muted)]">A trust signal from AdaptSphere' positioning: quality, efficiency, scalability, and sustainable cost awareness.</p>
             </BorderGlowCard>
           ))}
         </div>
