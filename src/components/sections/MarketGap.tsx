@@ -11,7 +11,7 @@ export function MarketGap() {
         <div className="grid gap-5 md:grid-cols-3">
           {["Sustainable costs", "Enterprise-level quality", "Long-term value"].map((item) => (
             <BorderGlowCard key={item}>
-              <p className="text-xs font-bold uppercase tracking-[0.24em] text-[var(--accent)]">ADAPTS principle</p>
+              <p className="text-xs font-bold uppercase tracking-[0.24em] text-[var(--accent)]">AdaptSphere principle</p>
               <h3 className="mt-4 font-display text-3xl font-semibold">{item}</h3>
               <p className="mt-3 text-sm leading-7 text-[var(--muted)]">Built for growing businesses that need clarity, performance, and reliable execution.</p>
             </BorderGlowCard>
