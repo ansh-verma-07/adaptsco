@@ -17,7 +17,7 @@ export function Projects() {
   return (
     <PageTransition>
       <SEO entry={seo.projects} />
-      <PageHero eyebrow="Projects" title="Case-study placeholders with cinematic ADAPTS energy." text="These project cards are clearly marked as editable placeholders until approved project data, metrics, and visuals are provided." />
+      <PageHero eyebrow="Projects" title="Case-study placeholders with cinematic AdaptSphere energy." text="These project cards are clearly marked as editable placeholders until approved project data, metrics, and visuals are provided." />
       <Container className="pb-20">
         <FlyingPosters />
         <div className="my-8 flex flex-wrap gap-2">
