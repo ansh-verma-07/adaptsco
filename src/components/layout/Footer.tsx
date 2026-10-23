@@ -23,9 +23,6 @@ export function Footer() {
           <p>{brand.contact.email}</p>
           <p>{brand.contact.whatsapp}</p>
           <p>{brand.contact.address}</p>
-          <p>{brand.contact.instagram}</p>
-          <p>{brand.contact.linkedin}</p>
-          <p>{brand.contact.linktree}</p>
         </div>
       </Container>
     </footer>
