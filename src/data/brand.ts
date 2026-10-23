@@ -1,6 +1,7 @@
 export const brand = {
-  name: "ADAPTS.CO",
-  shortName: "ADAPTS",
+  name: "AdaptSphere Private Limited",
+  shortName: "AdaptSphere",
+  cin: "U62099MR2026PTC480046",
   taglines: [
     "The Future Belongs to Those Who Adapts",
     "The Future Belongs to Those Who Adapt",
@@ -10,15 +11,16 @@ export const brand = {
     "Your Vision, Perfectly Built",
   ],
   positioning:
-    "ADAPTS is a full-stack digital solutions studio built to support modern brands with clarity, balance, and long-term vision. It brings strategy, design, technology, and execution under one roof.",
+    "AdaptSphere is a full-stack digital solutions studio built to support modern brands with clarity, balance, and long-term vision. It brings strategy, design, technology, and execution under one roof.",
   marketGap:
-    "Many growing businesses need high-quality digital solutions at sustainable costs. ADAPTS answers that gap with refined design thinking, reliable engineering, purposeful creative storytelling, enterprise-level quality, cost-conscious scalability, and long-term value.",
+    "Many growing businesses need high-quality digital solutions at sustainable costs. AdaptSphere answers that gap with refined design thinking, reliable engineering, purposeful creative storytelling, enterprise-level quality, cost-conscious scalability, and long-term value.",
   personality: ["Premium", "Futuristic", "Trustworthy", "Youthful", "Technical", "Creative", "Clean", "Bold", "Adaptive", "Reliable"],
   contact: {
-    email: "adapts.co@gmail.com",
+    email: "officialadaptsphere@gmail.com",
+    address: "OM AARISH C.H.S, PLOT NO. 4, SECTOR 17, FLAT NO. 703, Ulwa, Raigarh(MH), Panvel, Maharashtra, India, 410206",
     whatsapp: "+91 90764 64058",
     whatsappUrl: "https://wa.me/919076464058",
-    website: "https://adaptsco.xyz/",
+    website: "https://www.adaptsco.studio/",
     instagram: "@adapts.co",
     instagramUrl: "https://www.instagram.com/adapts.co/",
     linkedin: "adapts-co",
