@@ -3,6 +3,7 @@ import { brand } from "./brand";
 export const contactLinks = [
   { label: "Email", value: brand.contact.email, href: `mailto:${brand.contact.email}` },
   { label: "WhatsApp", value: brand.contact.whatsapp, href: brand.contact.whatsappUrl },
+  { label: "Website", value: brand.contact.website, href: brand.contact.website },
   { label: "Instagram", value: brand.contact.instagram, href: brand.contact.instagramUrl },
   { label: "LinkedIn", value: brand.contact.linkedin, href: brand.contact.linkedinUrl },
   { label: "Linktree", value: brand.contact.linktree, href: brand.contact.linktreeUrl },
