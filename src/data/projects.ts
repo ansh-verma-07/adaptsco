@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Premium Web Ecosystem",
     category: "Web",
     challenge: "Editable placeholder: a growing brand needed a premium digital home with scalable content areas.",
-    solution: "ADAPTS-shaped solution placeholder: strategy, web design, frontend architecture, and performance planning.",
+    solution: "AdaptSphere-shaped solution placeholder: strategy, web design, frontend architecture, and performance planning.",
     result: "Result placeholder - replace with real metrics when a case study is available.",
     services: ["Web Application Development", "Branding & Creative Design"],
     visual: "/src/assets/generated/abstract-web-ecosystem.svg",
