@@ -1,6 +1,6 @@
 export const faqs = [
   {
-    question: "How does ADAPTS define project pricing?",
+    question: "How does AdaptSphere define project pricing?",
     answer: "Pricing starts from ₹5,000 and varies based on project requirements, scope, timeline, and complexity. Final cost is defined after understanding the scope of work.",
   },
   {
